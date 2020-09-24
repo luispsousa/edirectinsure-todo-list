@@ -21,6 +21,7 @@ mongoose.connect(
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
+    useFindAndModify: false,
   },
   (err) => {
     if (err) throw err;
@@ -31,4 +32,5 @@ mongoose.connect(
 // set up routes
 
 app.use("/users", require("./routes/userRouter"));
-
+app.use("/projects", require("./routes/projectRouter"));
+app.use("/tasks", require("./routes/taskRouter"));

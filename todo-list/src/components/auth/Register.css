@@ -1,0 +1,14 @@
+.register {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.register__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register__form input {
+  margin: .5rem 0;
+  line-height: 2em;
+}

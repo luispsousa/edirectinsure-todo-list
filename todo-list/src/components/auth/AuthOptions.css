@@ -1,0 +1,14 @@
+.auth-options {
+  display: flex;
+  height: 100%; 
+}
+
+.auth-options button {
+  padding: 0 1rem;
+  background-color: #aaa;
+  font-size: 1.1rem;
+}
+
+.auth-options button:hover {
+  background-color: #888;
+}

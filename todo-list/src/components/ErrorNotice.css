@@ -1,0 +1,16 @@
+.error-notice {
+  border: 1px solid red;
+  padding: .5rem;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.error-notice button {
+  width: 20px;
+  height: 20px;
+  color: white;
+  background-color: red;
+  border-radius: 50%;
+}

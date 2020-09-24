@@ -1,0 +1,18 @@
+.project__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ccc;
+  max-width: 300px;
+  padding: 1rem 0;
+  margin: 0 auto;
+}
+
+.project__form label{
+  font-size: 1.2rem;
+  margin-bottom: .5rem;
+}
+
+.project__form input{
+  margin-bottom: .5rem;
+}
